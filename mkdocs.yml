@@ -1,0 +1,9 @@
+site_name: Format-Splat
+repo_url: https://github.com/KevinMarquette/Format-Splat
+theme: readthedocs
+pages:
+  - Home: index.md
+  - Format-Splat Basics:
+    - What is Format-Splat: about.md
+    - Quick Start: Quick-Start-Installation-and-Example.md
+  - Acknowledgements: acknowledgements.md
