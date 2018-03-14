@@ -22,7 +22,7 @@
     # CLRVersion = ''
     # ProcessorArchitecture = ''
     RequiredModules   = @(
-        @{Module = 'Select-AST'; ModuleVersion = '0.1.0'}
+        @{ModuleName = 'Select-AST'; ModuleVersion = '0.1.0'}
     )
     # RequiredAssemblies = @()
     # ScriptsToProcess = @()
