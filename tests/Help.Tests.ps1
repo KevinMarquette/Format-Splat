@@ -11,7 +11,7 @@ Describe "Help tests for $moduleName" -Tags Build {
         Unload-SUT
     }
 
-    $functions = Get-Command -Module $moduleName
+    $functions = Get-Command -Module $moduleName | where Name -NotMatch 'VSCode'
     $help = $functions | % {Get-Help $_.name}
     foreach ($node in $help)
     {
